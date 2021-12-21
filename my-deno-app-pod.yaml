@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-deno-app-pod
+  labels:
+    app: web
+  namespace: my-deno-app
+spec:
+  containers:
+  - name: my-deno-app-container
+    image: mehdijebali/my-deno-app:1.1 
