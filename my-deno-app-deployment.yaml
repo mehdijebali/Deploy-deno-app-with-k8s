@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deno-app-deployment
+  labels:
+    app: web
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: my-deno-app-container
+      image: mehdijebali/my-deno-app:1.1 mehdijebali/my-deno-app:1.1 
