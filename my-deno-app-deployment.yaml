@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: my-deno-app-container
-      image: mehdijebali/my-deno-app:1.1 mehdijebali/my-deno-app:1.1 
+      image: mehdijebali/my-deno-app:1.1 
